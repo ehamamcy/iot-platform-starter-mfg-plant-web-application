@@ -1,9 +1,9 @@
 ---
 applications:
-- name: iot-manufacturing-plant 
+- name: iot-platform-starter-mfg-plant-web-application 
   memory: 256M
   instances: 1
-  host: iot-manufacturing-plant
+  host: iot-platform-starter-mfg-plant-web-application
   path: .
   buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack 
 

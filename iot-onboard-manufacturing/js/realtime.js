@@ -15,11 +15,11 @@ var subscribeTopic = "";
 var Realtime = function() {
 
 	// update your credentials here
-	var orgId = "6zwg9v"; // your org ID
-	var deviceType = "manuplant"; // your device Type
+	var orgId = "pm6j7w"; // Your org ID.  Make sure they match from when you created it in Bluemix.
+	var deviceType = "manuplant"; // Your device Type
 	var deviceId = "manuplant1"; // Your device ID
 
-	var deviceToken = "bluemix2016"; // Your device Token
+	var deviceToken = "bluemix2017"; // Your device Token.  Make sure they match with the name you created for your Device Token.
 
 	var clientId = "d:" + orgId + ":" + deviceType + ":" +deviceId;
 
