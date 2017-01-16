@@ -55,51 +55,25 @@ width:320px; height:100%; float:right; position:relative; background-color:#191a
 	margin-top:10px;
 	margin-left:-20px;}
 
-#d3{
-left: 572px;
-    position: absolute;
-    right: 120px;
-    top: 450px;}
 #d1{
 left: 240px;
     position: absolute;
     right: 380px;
     top: 420px;}
-
+    
 #d2{
 	left: 700px;
     position: absolute;
     right: 242px;
     top: 268px;}
-#d7{
-left: 268px;
+    
+#d3{
+left: 572px;
     position: absolute;
-    right: 500px;
-    top: 210px;
-}
-#d8{
-left: 399px;
-    position: absolute;
-    right: 500px;
-    top: 210px;
-}
-#d5{
- left: 273px;
-    position: absolute;
-    right: 490px;
-    top: 162px;
-}
-#d4{
-	 left: 206px;
-    position: absolute;
-    right: 617px;
-    top: 180px;}
-	
-#d6{left: 239px;
-    position: absolute;
-    right: 617px;
-    top: 200px;
-}
+    right: 120px;
+    top: 450px;}
+
+
 
 #detailsContent{
 	  float: left;
