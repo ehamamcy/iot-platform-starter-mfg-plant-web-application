@@ -78,7 +78,7 @@
                               </td>
                            </tr>
                            <tr>
-                              <td height="70" colspan="3" align="left" valign="middle"><input type="submit" name="sendevent" id="sendevent" value="Send Events" class="yellowButton" onclick="callETFunc()"/></td>
+                              <td height="70" colspan="3" align="left" valign="middle"><input type="submit" name="sendevent" id="sendevent" value="Send Events" class="yellowButton" onclick="callTemperatureFunc()"/></td>
                            </tr>
                         </table>
                      </div>
@@ -152,15 +152,9 @@
               realtime.publish(jsonObj, "update");
           }
 
-          function callETFunc() {
+          function callTemperatureFunc() {
               var jsonObj = buildJson();
               jsonObj.d.temp = document.getElementById("et").value;
-              realtime.publish(jsonObj, "update");
-          }
-
-          function callBatteryFunc() {
-              var jsonObj = buildJson();
-              jsonObj.d.battery = document.getElementById("battery").value;
               realtime.publish(jsonObj, "update");
           }
 
@@ -168,24 +162,6 @@
               var jsonObj = buildJson();
               jsonObj.d.speed = document.getElementById("speed").value;
               realtime.publish(jsonObj, "update");
-          }
-
-          function callABFunc() {
-              var jsonObj = buildJson();
-              jsonObj.d.airBagStatus = document.getElementById("airbag").value;
-              jsonObj.d.lat = document.getElementById("lat").value;
-              jsonObj.d.long = document.getElementById("long").value;
-              realtime.publish(jsonObj, "airbag");
-          }
-
-          function callEmissionFunc() {
-              var jsonObj = buildJson();
-              jsonObj.d.hc = document.getElementById("hc").value;
-              jsonObj.d.co = document.getElementById("co").value;
-              jsonObj.d.no = document.getElementById("no").value;
-              jsonObj.d.co2 = document.getElementById("co2").value;
-
-              realtime.publish(jsonObj, "emission");
           }
 
           function callTPfunc() {
