@@ -55,20 +55,23 @@ width:320px; height:100%; float:right; position:relative; background-color:#191a
 	margin-top:10px;
 	margin-left:-20px;}
 
+/* Humidity sensor */
 #d1{
-left: 240px;
+	left: 240px;
     position: absolute;
     right: 380px;
     top: 420px;}
-    
+  
+/* Temperature sensor */
 #d2{
 	left: 700px;
     position: absolute;
     right: 242px;
     top: 268px;}
-    
+   
+/* Speed sensor */
 #d3{
-left: 572px;
+	left: 572px;
     position: absolute;
     right: 120px;
     top: 450px;}
@@ -76,7 +79,7 @@ left: 572px;
 
 
 #detailsContent{
-	  float: left;
+	float: left;
     margin: 15px 0 0;
     position: relative;
 }
