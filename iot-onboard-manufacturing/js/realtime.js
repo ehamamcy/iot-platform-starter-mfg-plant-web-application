@@ -15,7 +15,7 @@ var subscribeTopic = "";
 var Realtime = function() {
 
 	// update your credentials here
-	var orgId = "nxp1he"; // Your org ID.  Make sure they match from when you created it in Bluemix.
+	var orgId = "cxzix4"; // Your org ID.  Make sure they match from when you created it in Bluemix.
 	var deviceType = "manuplant"; // Your device Type
 	var deviceId = "manuplant1"; // Your device ID
 
